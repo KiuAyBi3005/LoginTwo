@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_300"
+    tools:context="com.example.quanganhpham.logintwo.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        style="@style/ViewCommon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/image_text_main_margin_top"
+        android:src="@drawable/icon_bag" />
+
+    <TextView
+        android:id="@+id/text_zoo"
+        style="@style/TextView"
+        android:layout_below="@+id/image_icon"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="@string/text_zoo"
+        android:textSize="@dimen/text_main_size" />
+
+    <TextView
+        android:id="@+id/text_sign_in"
+        style="@style/TextView"
+        android:layout_below="@+id/text_zoo"
+        android:layout_marginLeft="@dimen/activity_main_margin_left_right"
+        android:layout_marginTop="@dimen/image_text_main_margin_top"
+        android:text="@string/text_sign_in"
+        android:textSize="@dimen/text_main_size" />
+
+    <EditText
+        android:id="@+id/edit_user"
+        style="@style/EditText"
+        android:layout_below="@+id/text_sign_in"
+        android:hint="@string/edit_user" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        style="@style/EditText"
+        android:layout_below="@+id/edit_user"
+        android:hint="@string/edit_pass" />
+
+    <Button
+        android:id="@+id/button_login"
+        style="@style/ButtonLogin"
+        android:layout_below="@+id/edit_pass"
+        android:text="@string/button_login" />
+
+    <TextView
+        android:id="@+id/text_sign_in_with"
+        style="@style/TextView"
+        android:layout_below="@+id/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_main_margin_top"
+        android:text="@string/text_sign_in_with" />
+
+    <ImageButton
+        android:id="@+id/image_button_facebook"
+        style="@style/ViewCommon"
+        android:layout_alignTop="@+id/image_button_google_plus"
+        android:layout_toStartOf="@+id/image_icon"
+        android:background="@drawable/fd"
+        android:src="@drawable/facebook1" />
+
+    <ImageButton
+        android:id="@+id/image_button_google_plus"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/text_sign_in_with"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/image_button_main_margin_top"
+        android:background="@drawable/fd"
+        android:src="@drawable/googleplus" />
+
+    <ImageButton
+        android:id="@+id/image_button_twitter"
+        style="@style/ViewCommon"
+        android:layout_alignTop="@+id/image_button_google_plus"
+        android:layout_toEndOf="@+id/image_icon"
+        android:background="@drawable/fd"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_alignStart="@+id/button_login"
+        android:layout_below="@+id/image_button_google_plus"
+        android:layout_marginTop="@dimen/activity_main_margin_top"
+        android:text="@string/text_dont_have_an_account"
+        android:textColorLink="@color/grey_500" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_alignEnd="@+id/button_login"
+        android:layout_below="@+id/image_button_google_plus"
+        android:layout_marginTop="@dimen/activity_main_margin_top"
+        android:text="@string/text_forgot_password" />
+</RelativeLayout>

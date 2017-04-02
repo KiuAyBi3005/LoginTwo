@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_300">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        style="@style/ViewCommon"
+        android:layout_marginLeft="@dimen/activity_main_margin_left_right"
+        android:layout_marginTop="@dimen/image_text_main_margin_top"
+        android:src="@drawable/icon_bag" />
+
+    <TextView
+        android:id="@+id/text_sign_in"
+        style="@style/TextView"
+        android:layout_below="@+id/image_icon"
+        android:layout_marginLeft="@dimen/activity_main_margin_left_right"
+        android:layout_marginTop="@dimen/image_text_main_margin_top"
+        android:text="Create new account"
+        android:textSize="@dimen/text_main_size" />
+
+    <EditText
+        android:id="@+id/edit_user"
+        style="@style/EditText"
+        android:layout_below="@+id/text_sign_in"
+        android:layout_marginTop="32dp"
+        android:hint="@string/edit_user" />
+
+    <EditText
+        android:id="@+id/edit_email_address"
+        style="@style/EditText"
+        android:layout_below="@+id/edit_user"
+        android:layout_marginTop="32dp"
+        android:hint="@string/edit_email_address" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        style="@style/EditText"
+        android:layout_below="@+id/edit_email_address"
+        android:layout_marginTop="32dp"
+        android:hint="@string/edit_pass" />
+
+    <Button
+        android:id="@+id/button_signin"
+        style="@style/ButtonLogin"
+        android:layout_below="@+id/edit_pass"
+        android:layout_marginTop="32dp"
+        android:text="@string/button_sign_up" />
+
+    <TextView
+        android:id="@+id/text_sign_in_with"
+        style="@style/TextView"
+        android:layout_below="@+id/button_signin"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/text_sign_in_with" />
+
+    <ImageButton
+        android:id="@+id/image_button_facebook"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/button_signin"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_toLeftOf="@+id/image_button_google_plus"
+        android:background="@drawable/fd"
+        android:src="@drawable/facebook1" />
+
+    <ImageButton
+        android:id="@+id/image_button_google_plus"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/button_signin"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_toLeftOf="@+id/image_button_twitter"
+        android:background="@drawable/fd"
+        android:src="@drawable/googleplus" />
+
+    <ImageButton
+        android:id="@+id/image_button_twitter"
+        style="@style/ViewCommon"
+        android:layout_alignEnd="@id/button_signin"
+        android:layout_below="@+id/button_signin"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fd"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_below="@+id/button_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:text="By Sign up you agree with our terms and conditions" />
+</RelativeLayout>

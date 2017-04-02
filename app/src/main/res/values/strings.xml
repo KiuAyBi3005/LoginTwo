@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoginTwo</string>
+    <string name="text_zoo">Zoo</string>
+    <string name="text_sign_in">Sign in</string>
+    <string name="edit_user">USERNAME</string>
+    <string name="edit_pass">PASSWORD</string>
+    <string name="button_login">Login</string>
+    <string name="text_sign_in_with">or sign in with:</string>
+    <string name="text_dont_have_an_account">Dont Have An Account?</string>
+    <string name="text_forgot_password">Forgot Password</string>
+    <string name="edit_email_address">EMAIL ADDRESS</string>
+    <string name="button_sign_up">Signup</string>
+
+</resources>
