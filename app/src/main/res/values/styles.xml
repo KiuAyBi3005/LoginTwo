@@ -21,7 +21,6 @@
     <style name="EditText" parent="ViewMatch">
         <item name="android:layout_marginRight">@dimen/activity_main_margin_left_right</item>
         <item name="android:layout_marginLeft">@dimen/activity_main_margin_left_right</item>
-
         <item name="android:textColor">@color/grey_900</item>
         <item name="android:textColorHint">@color/grey_400</item>
     </style>
@@ -29,14 +28,12 @@
     <style name="ButtonLogin" parent="ViewMatch">
         <item name="android:layout_marginRight">@dimen/activity_main_margin_left_right</item>
         <item name="android:layout_marginLeft">@dimen/activity_main_margin_left_right</item>
-
         <item name="android:textColor">@color/grey_200</item>
-        <item name="android:background">@drawable/back</item>
+        <item name="android:background">@drawable/button</item>
     </style>
 
     <style name="TextView" parent="ViewCommon">
         <item name="android:textColor">@color/grey_900</item>
-
     </style>
 
 </resources>
