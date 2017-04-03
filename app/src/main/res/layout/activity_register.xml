@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_300">
+
+    <ImageView
+        android:id="@+id/image_register_logo"
+        style="@style/ViewCommon"
+        android:layout_marginLeft="@dimen/activity_all_margin_left_right"
+        android:layout_marginTop="@dimen/image_text_all_margin_top"
+        android:src="@drawable/icon_bag" />
+
+    <TextView
+        android:id="@+id/text_register_sign_in"
+        style="@style/TextView"
+        android:layout_below="@+id/image_register_logo"
+        android:layout_marginLeft="@dimen/activity_all_margin_left_right"
+        android:layout_marginTop="@dimen/image_text_all_margin_top"
+        android:text="@string/register_create_new_account"
+        android:textSize="@dimen/text_main_size" />
+
+    <EditText
+        android:id="@+id/edit_text_register_user_name"
+        style="@style/EditText"
+        android:layout_below="@+id/text_register_sign_in"
+        android:layout_marginTop="@dimen/edit_text_register_margin_top"
+        android:hint="@string/all_username" />
+
+    <EditText
+        android:id="@+id/edit_text_register_email_address"
+        style="@style/EditText"
+        android:layout_below="@+id/edit_text_register_user_name"
+        android:layout_marginTop="@dimen/edit_text_register_margin_top"
+        android:hint="@string/register_email_address" />
+
+    <EditText
+        android:id="@+id/edit_text_regisiter_password"
+        style="@style/EditText"
+        android:layout_below="@+id/edit_text_register_email_address"
+        android:layout_marginTop="@dimen/edit_text_register_margin_top"
+        android:hint="@string/all_password" />
+
+    <Button
+        android:id="@+id/button_register_sign_in"
+        style="@style/ButtonLogin"
+        android:layout_below="@+id/edit_text_regisiter_password"
+        android:layout_marginTop="@dimen/image_button_main_margin_top"
+        android:text="@string/register_sign_up" />
+
+    <TextView
+        android:id="@+id/text_register_sign_in_with"
+        style="@style/TextView"
+        android:layout_below="@+id/button_register_sign_in"
+        android:layout_marginLeft="@dimen/text_register_sign_in_with_margin_left"
+        android:layout_marginTop="@dimen/text_register_sign_in_with_margin_top"
+        android:text="@string/main_sign_in_with" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button_register_facebook"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/text_register_sign_in_with"
+        android:layout_marginRight="@dimen/floating_button_register_margin_right"
+        android:layout_marginTop="@dimen/floating_button_register_margin_top"
+        android:layout_toLeftOf="@+id/image_button_google_plus"
+        android:src="@drawable/all_facebook_small" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button_register_google_plus"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/floating_button_register_facebook"
+        android:layout_marginRight="@dimen/floating_button_register_margin_right"
+        android:layout_marginTop="@dimen/floating_button_register_margin_top"
+        android:layout_toLeftOf="@+id/floating_button_register_twitter"
+        android:src="@drawable/all_google_plus_small" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button_register_twitter"
+        style="@style/ViewCommon"
+        android:layout_below="@+id/button_register_sign_in"
+        android:layout_marginTop="@dimen/floating_button_register_margin_top"
+        android:src="@drawable/all_twitter_small" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_below="@+id/button_register_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_register_by_sign_up_margin_top"
+        android:text="@string/register_by_sign_up" />
+</RelativeLayout>

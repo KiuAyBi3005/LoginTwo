@@ -1,16 +1,24 @@
 <resources>
     <string name="app_name">LoginTwo</string>
-    <string name="text_main_zoo">Zoo</string>
-    <string name="text_main_sign_in">Sign in</string>
-    <string name="edit_main_user">USERNAME</string>
-    <string name="edit_main_pass">PASSWORD</string>
-    <string name="button_main_login">Login</string>
-    <string name="text_main_sign_in_with">or sign in with:</string>
-    <string name="text_main_dont_have_an_account">Dont Have An Account?</string>
-    <string name="text_main_forgot_password">Forgot Password</string>
-    <string name="edit_creat_email_address">EMAIL ADDRESS</string>
-    <string name="button_creat_sign_up">Signup</string>
-    <string name="text_creat_by_sign_up">By Sign up you agree with our terms and conditions</string>
-    <string name="text_creat_creat_new_account">Create new account</string>
+
+    <string name="all_username">USERNAME</string>
+    <string name="all_password">PASSWORD</string>
+
+    <!--       Activity Main        -->
+
+    <string name="main_zoo">Zoo</string>
+    <string name="main_sign_in">Sign in</string>
+    <string name="main_login">Login</string>
+    <string name="main_sign_in_with">or sign in with:</string>
+    <string name="main_do_not_have_an_account">Don\'t Have An Account?</string>
+    <string name="main_forgot_password">Forgot Password</string>
+
+
+    <!--        Activity Register -->
+
+    <string name="register_email_address">EMAIL ADDRESS</string>
+    <string name="register_sign_up">Sign up</string>
+    <string name="register_by_sign_up">By Sign up you agree with our terms and conditions</string>
+    <string name="register_create_new_account">Create new account</string>
 
 </resources>
