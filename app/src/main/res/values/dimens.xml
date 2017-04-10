@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="activity_all_margin_left_right">24dp</dimen>
-    <dimen name="image_text_all_margin_top">32dp</dimen>
+    <dimen name="activity_all_margin_left_right">16dp</dimen>
+    <dimen name="margin_top_all_image_text">32dp</dimen>
+    <dimen name="padding_activity_main">16dp</dimen>
 
     <!-- Activity main -->
 
-    <dimen name="image_main_with_height">70dp</dimen>
-    <dimen name="text_main_margin_bottom">10dp</dimen>
-    <dimen name="activity_main_margin_top">48dp</dimen>
-    <dimen name="edit_main_margin_top">36dp</dimen>
+    <dimen name="margin_bottom_main_text">8dp</dimen>
+    <dimen name="margin_top_main_text">48dp</dimen>
+    <dimen name="margin_top_main_edit_text">32dp</dimen>
+    <dimen name="margin_top_main_text_sign_in_with">8dp</dimen>
+    <dimen name="margin_top_main_floating_button">16dp</dimen>
 
-    <dimen name="image_button_main_margin_top">26dp</dimen>
-    <dimen name="text_main_margin_top">10dp</dimen>
 
-    <dimen name="text_main_size">30dp</dimen>
-    <dimen name="floating_button_register_margin_top">80dp</dimen>
-    <dimen name="floating_button_register_margin_right">16dp</dimen>
-    <dimen name="text_register_sign_in_with_margin_top">96dp</dimen>
-    <dimen name="text_register_sign_in_with_margin_left">72dp</dimen>
-    <dimen name="text_register_by_sign_up_margin_top">144dp</dimen>
-    <dimen name="edit_text_register_margin_top">36dp</dimen>
+    <dimen name="size_main_text">30sp</dimen>
+    <dimen name="margin_top_register_floating_button">80dp</dimen>
+    <dimen name="margin_right_register_floating_button">16dp</dimen>
+    <dimen name="margin_top_register_text_sign_in_with">96dp</dimen>
+    <dimen name="margin_left_register_text_sign_in_with">72dp</dimen>
+    <dimen name="margin_top_register_text_by_sign_up">144dp</dimen>
+    <dimen name="margin_top_register_edit_text">32dp</dimen>
 </resources>
