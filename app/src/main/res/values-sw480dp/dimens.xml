@@ -1,0 +1,21 @@
+<resources>
+<dimen name="margin_top_all_image_text">8.0dp</dimen>
+<dimen name="padding_activity_main">16.0dp</dimen>
+
+<!--Activitymain-->
+
+<dimen name="size_main_text">24.0sp</dimen>
+<dimen name="margin_bottom_main_text">8.0dp</dimen>
+<dimen name="margin_top_main_text">24.0dp</dimen>
+<dimen name="margin_top_main_edit_text">16.0dp</dimen>
+<dimen name="margin_top_main_text_sign_in_with">8.0dp</dimen>
+<dimen name="margin_top_main_floating_button">16.0dp</dimen>
+
+<!--Activityregister-->
+
+<dimen name="margin_top_register_floating_button">48.0dp</dimen>
+<dimen name="margin_right_register_floating_button">8.0dp</dimen>
+<dimen name="margin_top_register_edit_text">16.0dp</dimen>
+<dimen name="margin_top_register_text_or_sign_in_with">64.0dp</dimen>
+<dimen name="margin_left_register_text_or_sign_in_with">8.0dp</dimen>
+</resources>

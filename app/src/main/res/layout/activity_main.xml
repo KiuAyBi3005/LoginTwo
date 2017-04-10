@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/grey_300"
     android:padding="@dimen/padding_activity_main"
     tools:context="com.example.quanganhpham.logintwo.MainActivity">
@@ -13,7 +12,7 @@
         style="@style/ViewCommon"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:src="@drawable/icon_bag" />
+        android:src="@drawable/all_icon_bag_small" />
 
     <TextView
         android:id="@+id/text_main_zoo"
@@ -29,7 +28,7 @@
         android:id="@+id/text_main_sign_in"
         style="@style/TextView"
         android:layout_below="@+id/text_main_zoo"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margin_top_all_image_text"
         android:text="@string/main_sign_in"
         android:textSize="@dimen/size_main_text" />
 
@@ -70,9 +69,8 @@
         android:layout_marginRight="@dimen/margin_bottom_main_text"
         android:layout_marginTop="@dimen/margin_top_main_floating_button"
         android:layout_toLeftOf="@+id/floating_button_main_google_plus"
-        android:src="@drawable/all_facebook_small"
         android:backgroundTint="@color/grey_50"
-        />
+        android:src="@drawable/all_facebook_small" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floating_button_main_google_plus"
@@ -80,9 +78,8 @@
         android:layout_below="@+id/text_main_sign_in_with"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/margin_top_main_floating_button"
-        android:src="@drawable/all_google_plus_small"
         android:backgroundTint="@color/grey_50"
-        />
+        android:src="@drawable/all_google_plus_small" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floating_button_register_twitter"
@@ -91,9 +88,8 @@
         android:layout_marginLeft="@dimen/margin_bottom_main_text"
         android:layout_marginTop="@dimen/margin_top_main_floating_button"
         android:layout_toRightOf="@id/floating_button_main_google_plus"
-        android:src="@drawable/all_twitter_small"
         android:backgroundTint="@color/grey_50"
-        />
+        android:src="@drawable/all_twitter_small" />
 
     <TextView
         android:id="@+id/textView"
